@@ -1,6 +1,7 @@
-package com.example.pc1dbp;
+package com.example.pc1dbp.Entities;
 
 
+import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -8,6 +9,7 @@ import lombok.Setter;
 
 import java.time.ZonedDateTime;
 
+@Entity
 @AllArgsConstructor
 @NoArgsConstructor
 @Setter
